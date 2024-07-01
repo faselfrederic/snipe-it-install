@@ -3,7 +3,7 @@
 db_root_pass=password123
 db_user_pass=password123
 
-app_url=http://192.168.11.110
+app_url=http://<add IP or URL here>
 app_timezone=CET
 db_database=snipeit
 db_username=snipeit

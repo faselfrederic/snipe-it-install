@@ -73,10 +73,6 @@ sed -i "s\DB_PASSWORD=null\DB_PASSWORD=$db_user_pass\g" .env
 chown -R www-data: /var/www/html/snipe-it
 chmod -R 755 /var/www/html/snipe-it
 
-# cat << EOF | composer update --no-plugins --no-scripts
-
-# EOF
-
 cat << EOF | composer install --no-dev --prefer-source --no-plugins --no-scripts
 
 EOF
